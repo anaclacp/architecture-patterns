@@ -4,14 +4,14 @@
 Um guia para entender e aplicar padrões de arquitetura no desenvolvimento de software.
 </div>
 
-## 📌 Índice
+##  📌 Índice
 - [Monolito](#-monolito)
 - [Microservices](#-microservices)
 - [Event-Driven Architecture](#-event-driven-architecture)
 - [Serverless](#-serverless)
 - [Conclusão](#-conclusão)
 
-## 🏗️ Monolito
+##  🏗️ Monolito
 
 <div style="color: #9370DB;">
 
@@ -33,7 +33,7 @@ npm install
 npm start
 ```
 </div>
-## 🔧 Microservices
+##  🔧 Microservices
 <div style="color: #7B68EE;">
 O que é?
 Arquitetura onde a aplicação é dividida em pequenos serviços independentes que se comunicam via APIs.
@@ -53,7 +53,7 @@ fetch('https://api.example.com/users')
 ```
 </div>
 
-## 🔄 Event-Driven Architecture
+##  🔄 Event-Driven Architecture
 <div style="color: #6A5ACD;">
 O que é?
 Arquitetura baseada em eventos, onde os serviços se comunicam através de eventos assíncronos.
@@ -70,7 +70,7 @@ Exemplo
 channel.sendToQueue('eventQueue', Buffer.from(JSON.stringify(event)));
 ```
 </div>
-## ☁️ Serverless
+##  ☁️ Serverless
 <div style="color: #8A2BE2;">
 O que é?
 Arquitetura onde o desenvolvedor escreve código sem se preocupar com a gestão de servidores, usando serviços sob demanda.
